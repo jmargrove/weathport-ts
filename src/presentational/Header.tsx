@@ -23,7 +23,7 @@ const HeaderTitle = styled.h1`
   color: black;
 `;
 
-const Header: React.SFC<{}> = () => {
+const Header: React.SFC = () => {
     return (
       <HeaderContainer>
         <HeaderTitle> Wealthport </HeaderTitle>
